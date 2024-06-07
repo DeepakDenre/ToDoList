@@ -1,0 +1,19 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 10vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    width: 30%;
+    background-color: orange;
+    text-align: center;
+    font-size: 48px;
+}
