@@ -2,11 +2,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
     </head>
     <body>
         <div class="header">
-            <div class="logo"><img src="asset/img/logo.png" alt="Logo" height="100%"></div>
+            <img src="asset/img/logo.png" alt="Logo" height="100%">
+            <div style="width: 5vw;"></div>
             <div class="title">ToDo List</div>
+        </div>
+        <div class="functionbar">
+            <button class="AddTask" onclick="AddTask">Add Task</button>
+            <button class="RemoveTask" onclick="RemoveTask">Remove Task</button>
+        </div>
+        <div id="Task">
         </div>
     </body>
 </html>

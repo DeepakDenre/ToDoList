@@ -11,9 +11,39 @@
     align-items: center;
 }
 
+.logo{
+    width: 30vh;
+}
+
 .title{
     width: 30%;
-    background-color: orange;
+    color: blanchedalmond;
+    background-color: transparent;
     text-align: center;
-    font-size: 48px;
+    font-weight: bold;
+    font-size: 7vh;
+}
+
+.functionbar{
+    height: 5vh;
+    display: flex;
+    background-color: brown;
+}
+
+.AddTask{
+    background-color: aqua;
+    border: 0;
+    width: 49%;
+    height: 80%;
+    margin: auto;
+    font-size: 3vh;
+}
+
+.RemoveTask{
+    background-color: red;
+    border: 0;
+    width: 49%;
+    height: 80%;
+    margin: auto;
+    font-size: 3vh;
 }
